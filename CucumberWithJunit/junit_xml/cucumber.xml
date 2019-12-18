@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0">
+<testcase classname="Ecommerce Application Test" name="Validate Ecommerce Login Page Test" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given The person enters chrome browser......................................undefined
+Then person will be in login Page...........................................undefined
+Then person gives his harikaqa.601@gmail.com and Welcome@123................undefined
+Then person clicks on signon button.........................................undefined
+Then validating logged in successfully or not...............................undefined
+]]></failure>
+</testcase>
+<testcase classname="Ecommerce Application Test" name="Validate Ecommerce Login Page Test 2" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given The person enters chrome browser......................................undefined
+Then person will be in login Page...........................................undefined
+Then person gives his chitraaaaaaa@gmail.com and chitra121..................undefined
+Then person clicks on signon button.........................................undefined
+Then validating logged in successfully or not...............................undefined
+]]></failure>
+</testcase>
+</testsuite>
