@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="5" name="TestSuite" time="5.235" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.162-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/amruthapenigalapati/eclipse-workspace/corejava/src/Basic_java/CustomerServiceApiFM"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/amruthapenigalapati/eclipse-workspace/corejava/src/Basic_java/CustomerServiceApiFM"/>
+    <property name="java.runtime.version" value="1.8.0_162-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/l6/8w2g89m50vbcb05z_pwc8f7w0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/amruthapenigalapati/eclipse-workspace/corejava/src/Basic_java/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7425279767260775716.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/amruthapenigalapati/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/amruthapenigalapati"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="amruthapenigalapati"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.0.20150526-2031/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_162"/>
+    <property name="java.ext.dirs" value="/Users/amruthapenigalapati/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/amruthapenigalapati/eclipse-workspace/corejava/src/Basic_java/CustomerServiceApiFM/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.apex.customerServiceTest.DeleteTest" name="deleteRecord" time="2.02">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.apex.api.core.ApexHttpValidator.performCommonResponseValidations(ApexHttpValidator.java:8)
+	at com.apex.customerServiceTest.DeleteTest.deleteRecord(DeleteTest.java:21)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@41a4555e
+</system-out>
+    <system-err>log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+</system-err>
+  </testcase>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithAsterik" time="0.464"/>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithHashSymbol" time="0.006">
+    <failure message="Illegal character in fragment at index 46: http://www.thomas-bayer.com/sqlrest/CUSTOMER/##" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Illegal character in fragment at index 46: http://www.thomas-bayer.com/sqlrest/CUSTOMER/##
+	at java.net.URI.create(URI.java:852)
+	at org.apache.http.client.methods.HttpGet.&lt;init&gt;(HttpGet.java:66)
+	at com.apex.api.core.ApexHttpUtil.sendAndReceiveGETMessage(ApexHttpUtil.java:33)
+	at com.apex.customerServiceTest.GetTest.testwithHashSymbol(GetTest.java:73)
+Caused by: java.net.URISyntaxException: Illegal character in fragment at index 46: http://www.thomas-bayer.com/sqlrest/CUSTOMER/##
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3067)
+	at java.net.URI.&lt;init&gt;(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 37 more
+</failure>
+  </testcase>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithInvalidData" time="0.401"/>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithNegativeNumber" time="0.38"/>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithPositiveNumber" time="0.387">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.apex.api.core.ApexHttpValidator.performCommonResponseValidations(ApexHttpValidator.java:8)
+	at com.apex.customerServiceTest.GetTest.testwithPositiveNumber(GetTest.java:21)
+</failure>
+  </testcase>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithSpace" time="0.01">
+    <failure message="Illegal character in path at index 45: http://www.thomas-bayer.com/sqlrest/CUSTOMER/  " type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Illegal character in path at index 45: http://www.thomas-bayer.com/sqlrest/CUSTOMER/  
+	at java.net.URI.create(URI.java:852)
+	at org.apache.http.client.methods.HttpGet.&lt;init&gt;(HttpGet.java:66)
+	at com.apex.api.core.ApexHttpUtil.sendAndReceiveGETMessage(ApexHttpUtil.java:33)
+	at com.apex.customerServiceTest.GetTest.testwithSpace(GetTest.java:52)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 45: http://www.thomas-bayer.com/sqlrest/CUSTOMER/  
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.&lt;init&gt;(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 37 more
+</failure>
+  </testcase>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithSpecialCharacters" time="0.381"/>
+  <testcase classname="com.apex.customerServiceTest.GetTest" name="testwithZeroes" time="0.386">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.apex.api.core.ApexHttpValidator.performCommonResponseValidations(ApexHttpValidator.java:8)
+	at com.apex.customerServiceTest.GetTest.testwithZeroes(GetTest.java:60)
+</failure>
+  </testcase>
+  <testcase classname="com.apex.customerServiceTest.PostTest" name="sendPOST" time="0.391"/>
+  <testcase classname="com.apex.customerServiceTest.PutTest" name="updatePositiveNumberWithPut" time="0.409"/>
+</testsuite>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="351" started-at="2019-12-11T02:27:20Z" finished-at="2019-12-11T02:27:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="351" started-at="2019-12-11T02:27:20Z" finished-at="2019-12-11T02:27:20Z">
+      <class name="com.apex.customerServiceTest.PostDDTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.apex.customerServiceTest.PostDDTest@6cc4c815]" name="setup" is-config="true" duration-ms="3" started-at="2019-12-10T18:27:20Z" finished-at="2019-12-10T18:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testWithPositiveNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apex.customerServiceTest.PostDDTest@6cc4c815]" name="testWithPositiveNumber" duration-ms="72" started-at="2019-12-10T18:27:20Z" data-provider="data" finished-at="2019-12-10T18:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[paseo padre]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[fremont]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithPositiveNumber -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.apex.customerServiceTest.PostDDTest@6cc4c815]" name="setup" is-config="true" duration-ms="1" started-at="2019-12-10T18:27:20Z" finished-at="2019-12-10T18:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.apex.customerServiceTest.PostDDTest@6cc4c815]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-12-10T18:27:20Z" finished-at="2019-12-10T18:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="testWithPositiveNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apex.customerServiceTest.PostDDTest@6cc4c815]" name="testWithPositiveNumber" duration-ms="10" started-at="2019-12-10T18:27:20Z" data-provider="data" finished-at="2019-12-10T18:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5558]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[am]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dim]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[paseo padre]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[fremont]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithPositiveNumber -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.apex.customerServiceTest.PostDDTest@6cc4c815]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-12-10T18:27:20Z" finished-at="2019-12-10T18:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.apex.customerServiceTest.PostDDTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

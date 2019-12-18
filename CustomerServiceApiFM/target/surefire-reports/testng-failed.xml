@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.apex.api.core.ApexBaseServiceTest"/>
+      <class name="com.apex.customerServiceTest.GetTest"/>
+      <class name="com.apex.customerServiceTest.GetAllTest"/>
+      <class name="com.apex.customerServiceTest.PutTest"/>
+      <class name="com.apex.customerServiceTest.DeleteTest"/>
+      <class name="com.apex.customerServiceTest.PostTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.apex.customerServiceTest.PutTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.apex.customerServiceTest.PutTest -->
+      <class name="com.apex.customerServiceTest.DeleteTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="deleteRecord"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.apex.customerServiceTest.DeleteTest -->
+      <class name="com.apex.customerServiceTest.GetTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testwithZeroes"/>
+          <include name="testwithPositiveNumber"/>
+          <include name="testwithSpace"/>
+          <include name="setup"/>
+          <include name="testwithHashSymbol"/>
+        </methods>
+      </class> <!-- com.apex.customerServiceTest.GetTest -->
+      <class name="com.apex.customerServiceTest.PostTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.apex.customerServiceTest.PostTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

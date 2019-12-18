@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.116 sec <<< FAILURE!
+deleteRecord(com.apex.customerServiceTest.DeleteTest)  Time elapsed: 2.02 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.apex.api.core.ApexHttpValidator.performCommonResponseValidations(ApexHttpValidator.java:8)
+	at com.apex.customerServiceTest.DeleteTest.deleteRecord(DeleteTest.java:21)
+
+testwithHashSymbol(com.apex.customerServiceTest.GetTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Illegal character in fragment at index 46: http://www.thomas-bayer.com/sqlrest/CUSTOMER/##
+	at java.net.URI.create(URI.java:852)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:66)
+	at com.apex.api.core.ApexHttpUtil.sendAndReceiveGETMessage(ApexHttpUtil.java:33)
+	at com.apex.customerServiceTest.GetTest.testwithHashSymbol(GetTest.java:73)
+Caused by: java.net.URISyntaxException: Illegal character in fragment at index 46: http://www.thomas-bayer.com/sqlrest/CUSTOMER/##
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parse(URI.java:3067)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 37 more
+
+testwithPositiveNumber(com.apex.customerServiceTest.GetTest)  Time elapsed: 0.387 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.apex.api.core.ApexHttpValidator.performCommonResponseValidations(ApexHttpValidator.java:8)
+	at com.apex.customerServiceTest.GetTest.testwithPositiveNumber(GetTest.java:21)
+
+testwithSpace(com.apex.customerServiceTest.GetTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Illegal character in path at index 45: http://www.thomas-bayer.com/sqlrest/CUSTOMER/  
+	at java.net.URI.create(URI.java:852)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:66)
+	at com.apex.api.core.ApexHttpUtil.sendAndReceiveGETMessage(ApexHttpUtil.java:33)
+	at com.apex.customerServiceTest.GetTest.testwithSpace(GetTest.java:52)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 45: http://www.thomas-bayer.com/sqlrest/CUSTOMER/  
+	at java.net.URI$Parser.fail(URI.java:2848)
+	at java.net.URI$Parser.checkChars(URI.java:3021)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3105)
+	at java.net.URI$Parser.parse(URI.java:3053)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 37 more
+
+testwithZeroes(com.apex.customerServiceTest.GetTest)  Time elapsed: 0.386 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.apex.api.core.ApexHttpValidator.performCommonResponseValidations(ApexHttpValidator.java:8)
+	at com.apex.customerServiceTest.GetTest.testwithZeroes(GetTest.java:60)
+
